@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		BC6207381C7ED3A1007F5AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6207371C7ED3A1007F5AF7 /* main.m */; };
 		BC62073B1C7ED3A1007F5AF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62073A1C7ED3A1007F5AF7 /* AppDelegate.m */; };
-		BC62073E1C7ED3A1007F5AF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62073D1C7ED3A1007F5AF7 /* ViewController.m */; };
+		BC62073E1C7ED3A1007F5AF7 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62073D1C7ED3A1007F5AF7 /* LogInViewController.m */; };
 		BC6207411C7ED3A1007F5AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC62073F1C7ED3A1007F5AF7 /* Main.storyboard */; };
 		BC6207431C7ED3A1007F5AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6207421C7ED3A1007F5AF7 /* Assets.xcassets */; };
 		BC6207461C7ED3A1007F5AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6207441C7ED3A1007F5AF7 /* LaunchScreen.storyboard */; };
 		BC6207511C7ED3A1007F5AF7 /* YLRoaringTribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6207501C7ED3A1007F5AF7 /* YLRoaringTribeTests.m */; };
 		BC62075C1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */; };
 		BE776E880F70DCA84663A7CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E69117B607F8FB492989AF98 /* libPods.a */; };
+		F66702561C7EF72A00321DBA /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66702551C7EF72A00321DBA /* 头像.jpg */; };
+		F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667026B1C7F058500321DBA /* RegisterViewController.m */; };
+		F667026E1C7F058500321DBA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667026B1C7F058500321DBA /* RegisterViewController.m */; };
+		F667026F1C7F058500321DBA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F667026C1C7F058500321DBA /* RegisterViewController.xib */; };
+		F66702701C7F058500321DBA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F667026C1C7F058500321DBA /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +47,8 @@
 		BC6207371C7ED3A1007F5AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC6207391C7ED3A1007F5AF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC62073A1C7ED3A1007F5AF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC62073C1C7ED3A1007F5AF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC62073D1C7ED3A1007F5AF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC62073C1C7ED3A1007F5AF7 /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		BC62073D1C7ED3A1007F5AF7 /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		BC6207401C7ED3A1007F5AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC6207421C7ED3A1007F5AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6207451C7ED3A1007F5AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +61,10 @@
 		BC62075D1C7ED3A1007F5AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC62076D1C7ED93F007F5AF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E69117B607F8FB492989AF98 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66702551C7EF72A00321DBA /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
+		F667026A1C7F058500321DBA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = SOURCE_ROOT; };
+		F667026B1C7F058500321DBA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = SOURCE_ROOT; };
+		F667026C1C7F058500321DBA /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,14 +127,15 @@
 		BC6207351C7ED3A1007F5AF7 /* YLRoaringTribe */ = {
 			isa = PBXGroup;
 			children = (
+				F66702541C7EF70900321DBA /* 素材 */,
 				BC62076C1C7ED911007F5AF7 /* resource */,
 				BC62076B1C7ED8B9007F5AF7 /* models */,
 				BC62076A1C7ED898007F5AF7 /* controllers */,
 				BC6207691C7ED87B007F5AF7 /* views */,
 				BC6207391C7ED3A1007F5AF7 /* AppDelegate.h */,
 				BC62073A1C7ED3A1007F5AF7 /* AppDelegate.m */,
-				BC62073C1C7ED3A1007F5AF7 /* ViewController.h */,
-				BC62073D1C7ED3A1007F5AF7 /* ViewController.m */,
+				BC62073C1C7ED3A1007F5AF7 /* LogInViewController.h */,
+				BC62073D1C7ED3A1007F5AF7 /* LogInViewController.m */,
 				BC62073F1C7ED3A1007F5AF7 /* Main.storyboard */,
 				BC6207421C7ED3A1007F5AF7 /* Assets.xcassets */,
 				BC6207441C7ED3A1007F5AF7 /* LaunchScreen.storyboard */,
@@ -172,6 +182,9 @@
 		BC62076A1C7ED898007F5AF7 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F667026A1C7F058500321DBA /* RegisterViewController.h */,
+				F667026B1C7F058500321DBA /* RegisterViewController.m */,
+				F667026C1C7F058500321DBA /* RegisterViewController.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -196,6 +209,14 @@
 				E69117B607F8FB492989AF98 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66702541C7EF70900321DBA /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				F66702551C7EF72A00321DBA /* 头像.jpg */,
+			);
+			name = "素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +325,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66702561C7EF72A00321DBA /* 头像.jpg in Resources */,
+				F667026F1C7F058500321DBA /* RegisterViewController.xib in Resources */,
 				BC6207461C7ED3A1007F5AF7 /* LaunchScreen.storyboard in Resources */,
 				BC6207431C7ED3A1007F5AF7 /* Assets.xcassets in Resources */,
 				BC6207411C7ED3A1007F5AF7 /* Main.storyboard in Resources */,
@@ -314,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66702701C7F058500321DBA /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,9 +403,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC62073E1C7ED3A1007F5AF7 /* ViewController.m in Sources */,
+				BC62073E1C7ED3A1007F5AF7 /* LogInViewController.m in Sources */,
 				BC62073B1C7ED3A1007F5AF7 /* AppDelegate.m in Sources */,
 				BC6207381C7ED3A1007F5AF7 /* main.m in Sources */,
+				F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6207511C7ED3A1007F5AF7 /* YLRoaringTribeTests.m in Sources */,
+				F667026E1C7F058500321DBA /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
