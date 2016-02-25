@@ -2,28 +2,17 @@ PODS:
   - AVOSCloud (3.2.5)
   - AVOSCloudCrashReporting (3.2.5):
     - AVOSCloud
-  - AVOSCloudCrashReportingDynamic (3.2.5):
-    - AVOSCloudDynamic
-  - AVOSCloudDynamic (3.2.5)
   - AVOSCloudIM (3.2.5):
     - AVOSCloud
-  - AVOSCloudIMDynamic (3.2.5):
-    - AVOSCloudDynamic
 
 DEPENDENCIES:
   - AVOSCloud
   - AVOSCloudCrashReporting
-  - AVOSCloudCrashReportingDynamic
-  - AVOSCloudDynamic
   - AVOSCloudIM
-  - AVOSCloudIMDynamic
 
 SPEC CHECKSUMS:
   AVOSCloud: f3a7d7dfa3c2d2158245c68581fcb98d90ad392a
   AVOSCloudCrashReporting: 81cdeaa2f0e4e54983ecebf033ad4eb0fd4dc714
-  AVOSCloudCrashReportingDynamic: 8d5be89605f45e45b62cb572a41b8992b06185e2
-  AVOSCloudDynamic: 0d6205b51114721e63a5e61c05e775e307252652
   AVOSCloudIM: c3af4940490891e14bbbcf6a3472e256804aa1ae
-  AVOSCloudIMDynamic: c5d2b85fd72e4be2833d109259b271498af85be0
 
 COCOAPODS: 0.39.0

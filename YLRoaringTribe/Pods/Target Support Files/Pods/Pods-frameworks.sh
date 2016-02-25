@@ -82,14 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/AVOSCloudCrashReportingDynamic/iOS/release-v3.2.5/Dynamic/AVOSCloudCrashReporting.framework"
-  install_framework "${PODS_ROOT}/AVOSCloudDynamic/iOS/release-v3.2.5/Dynamic/AVOSCloud.framework"
-  install_framework "${PODS_ROOT}/AVOSCloudIMDynamic/iOS/release-v3.2.5/Dynamic/AVOSCloudIM.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/AVOSCloudCrashReportingDynamic/iOS/release-v3.2.5/Dynamic/AVOSCloudCrashReporting.framework"
-  install_framework "${PODS_ROOT}/AVOSCloudDynamic/iOS/release-v3.2.5/Dynamic/AVOSCloud.framework"
-  install_framework "${PODS_ROOT}/AVOSCloudIMDynamic/iOS/release-v3.2.5/Dynamic/AVOSCloudIM.framework"
-fi
