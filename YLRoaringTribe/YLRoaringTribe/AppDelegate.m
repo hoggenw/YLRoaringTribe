@@ -16,7 +16,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+  
+    //如果使用美国站点，请加上这行代码 [AVOSCloud useAVCloudUS];
+    //[AVOSCloud setApplicationId:@"nvm32rNAPgzqv9R7dIU2wlBl-gzGzoHsz"
+    //                  clientKey:@"tVCxiqiTerWchslI0P0WbEqN"];
+    //如果想跟踪统计应用的打开情况，后面还可以添加下列代码：
+    //[AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+     
+     
+//     [AVOSCloud requestSmsCodeWithPhoneNumber:@"18682565339" callback:^(BOOL succeeded, NSError *error) {
+//          // 发送失败可以查看 error 里面提供的信息
+//          if (succeeded) {
+//               NSLog(@"成功");
+//          }else{
+//               NSLog(@"%@",error);
+//          }
+//     }];
+//     [AVUser signUpOrLoginWithMobilePhoneNumberInBackground:@"18682565339" smsCode:@"092487" block:^(AVUser *user, NSError *error) {
+//          // 如果 error 为空就可以表示登录成功了，并且 user 是一个全新的用户
+//          NSLog(@"%@",user);
+//          NSLog(@"%@",error);
+//          if (error==NULL) {
+//               NSLog(@"成功");
+//                    }
+//          else{
+//             NSLog(@"失败");
+//          }
+//     }];
     return YES;
 }
 
