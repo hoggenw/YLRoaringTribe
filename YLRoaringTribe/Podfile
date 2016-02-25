@@ -1,0 +1,13 @@
+platform :ios, "8.0"
+
+# 动态库 pods
+ # 数据存储、短信、云引擎调用等基础服务模块
+pod 'AVOSCloudDynamic'
+# 实时通信模块
+pod 'AVOSCloudIMDynamic'
+ # 错误报告模块
+pod 'AVOSCloudCrashReportingDynamic'
+# 静态库 pods
+pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
+pod 'AVOSCloudIM'             # 实时通信模块
+pod 'AVOSCloudCrashReporting' # 错误报告模块
