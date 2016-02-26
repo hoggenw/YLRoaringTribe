@@ -47,6 +47,7 @@
     [self.navigationController pushViewController:rvc animated:YES];
     
 }
+
 //使文本框失去第一响应者
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     for (int i=200; i<202; i++) {
