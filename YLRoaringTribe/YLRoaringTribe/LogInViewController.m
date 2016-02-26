@@ -8,7 +8,7 @@
 
 #import "LogInViewController.h"
 #import "RegisterViewController.h"
-@interface ViewController ()
+@interface ViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *heardImageView;
 @property (weak, nonatomic) IBOutlet UITextField *accountField;
 @property (weak, nonatomic) IBOutlet UITextField *codeField;
@@ -30,8 +30,14 @@
     self.codeField.secureTextEntry=YES;
     self.codeField.borderStyle=UITextBorderStyleRoundedRect;
     self.codeField.clearButtonMode=UITextFieldViewModeAlways;
+    self.accountField.keyboardType=UIKeyboardTypeDefault;
+    self.codeField.keyboardType=UIKeyboardTypeDefault;
+    self.accountField.returnKeyType=UIReturnKeyDone;
+    self.codeField.returnKeyType=UIReturnKeyDone;
     self.accountField.tag=200;
+    self.accountField.delegate=self;
     self.codeField.tag=201;
+    self.codeField.delegate=self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -58,6 +64,21 @@
     }
     
 }
-
-
+//点击键盘完成回调方法
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    if ([textField isFirstResponder]) {
+    [textField resignFirstResponder];  // 取消第一响应者
+      }
+    return YES;
+}
+//当文本框变为第一响应者时候使用
+- (void)textFieldDidBeginEditing:(UITextField *)textField{
+    if ([textField isFirstResponder]) {
+        for (UIView *temp in self.view.subviews) {
+        temp.frame=CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y - 100, self.view.frame.size.width, self.view.frame.size.height);
+        }
+    }
+    
+}
 @end
