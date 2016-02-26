@@ -14,6 +14,7 @@
 		BC6207461C7ED3A1007F5AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6207441C7ED3A1007F5AF7 /* LaunchScreen.storyboard */; };
 		BC6207511C7ED3A1007F5AF7 /* YLRoaringTribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6207501C7ED3A1007F5AF7 /* YLRoaringTribeTests.m */; };
 		BC62075C1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */; };
+		BC815F561C7FDC6E00E4A3D8 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC815F551C7FDC6E00E4A3D8 /* LogInViewController.m */; };
 		BE776E880F70DCA84663A7CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E69117B607F8FB492989AF98 /* libPods.a */; };
 		F66702561C7EF72A00321DBA /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66702551C7EF72A00321DBA /* 头像.jpg */; };
 		F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667026B1C7F058500321DBA /* RegisterViewController.m */; };
@@ -58,6 +59,8 @@
 		BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRoaringTribeUITests.m; sourceTree = "<group>"; };
 		BC62075D1C7ED3A1007F5AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC62076D1C7ED93F007F5AF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BC815F541C7FDC6E00E4A3D8 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = YLRoaringTribe/LogInViewController.h; sourceTree = SOURCE_ROOT; };
+		BC815F551C7FDC6E00E4A3D8 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = YLRoaringTribe/LogInViewController.m; sourceTree = SOURCE_ROOT; };
 		E69117B607F8FB492989AF98 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66702551C7EF72A00321DBA /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
 		F667026A1C7F058500321DBA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = SOURCE_ROOT; };
