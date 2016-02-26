@@ -14,7 +14,6 @@
 		BC6207461C7ED3A1007F5AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6207441C7ED3A1007F5AF7 /* LaunchScreen.storyboard */; };
 		BC6207511C7ED3A1007F5AF7 /* YLRoaringTribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6207501C7ED3A1007F5AF7 /* YLRoaringTribeTests.m */; };
 		BC62075C1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */; };
-		BC815F561C7FDC6E00E4A3D8 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC815F551C7FDC6E00E4A3D8 /* LogInViewController.m */; };
 		BE776E880F70DCA84663A7CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E69117B607F8FB492989AF98 /* libPods.a */; };
 		F66702561C7EF72A00321DBA /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66702551C7EF72A00321DBA /* 头像.jpg */; };
 		F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667026B1C7F058500321DBA /* RegisterViewController.m */; };
@@ -22,6 +21,23 @@
 		F667026F1C7F058500321DBA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F667026C1C7F058500321DBA /* RegisterViewController.xib */; };
 		F66702701C7F058500321DBA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F667026C1C7F058500321DBA /* RegisterViewController.xib */; };
 		F66702761C7FDF7100321DBA /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66702751C7FDF7100321DBA /* LogInViewController.m */; };
+		F6CBC53F1C7FF7B7007C4B8F /* MajorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC53D1C7FF7B7007C4B8F /* MajorViewController.m */; };
+		F6CBC5401C7FF7B7007C4B8F /* MajorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC53D1C7FF7B7007C4B8F /* MajorViewController.m */; };
+		F6CBC5491C7FFB09007C4B8F /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC5471C7FFB09007C4B8F /* AddressViewController.m */; };
+		F6CBC54A1C7FFB09007C4B8F /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC5471C7FFB09007C4B8F /* AddressViewController.m */; };
+		F6CBC54B1C7FFB09007C4B8F /* AddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC5481C7FFB09007C4B8F /* AddressViewController.xib */; };
+		F6CBC54C1C7FFB09007C4B8F /* AddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC5481C7FFB09007C4B8F /* AddressViewController.xib */; };
+		F6CBC5501C7FFB3F007C4B8F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC54E1C7FFB3F007C4B8F /* ChatViewController.m */; };
+		F6CBC5511C7FFB3F007C4B8F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC54E1C7FFB3F007C4B8F /* ChatViewController.m */; };
+		F6CBC5521C7FFB3F007C4B8F /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC54F1C7FFB3F007C4B8F /* ChatViewController.xib */; };
+		F6CBC5531C7FFB3F007C4B8F /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC54F1C7FFB3F007C4B8F /* ChatViewController.xib */; };
+		F6CBC5571C7FFB53007C4B8F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC5551C7FFB53007C4B8F /* MeViewController.m */; };
+		F6CBC5581C7FFB53007C4B8F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBC5551C7FFB53007C4B8F /* MeViewController.m */; };
+		F6CBC5591C7FFB53007C4B8F /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC5561C7FFB53007C4B8F /* MeViewController.xib */; };
+		F6CBC55A1C7FFB53007C4B8F /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC5561C7FFB53007C4B8F /* MeViewController.xib */; };
+		F6CBC55F1C7FFE04007C4B8F /* iconfont-ren.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC55C1C7FFE04007C4B8F /* iconfont-ren.png */; };
+		F6CBC5631C8003CB007C4B8F /* iconfont-liaotian-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC5621C8003CB007C4B8F /* iconfont-liaotian-2.png */; };
+		F6CBC5651C8003F0007C4B8F /* iconfont-tongxunlu-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CBC5641C8003F0007C4B8F /* iconfont-tongxunlu-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +75,6 @@
 		BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRoaringTribeUITests.m; sourceTree = "<group>"; };
 		BC62075D1C7ED3A1007F5AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC62076D1C7ED93F007F5AF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		BC815F541C7FDC6E00E4A3D8 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = YLRoaringTribe/LogInViewController.h; sourceTree = SOURCE_ROOT; };
-		BC815F551C7FDC6E00E4A3D8 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = YLRoaringTribe/LogInViewController.m; sourceTree = SOURCE_ROOT; };
 		E69117B607F8FB492989AF98 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66702551C7EF72A00321DBA /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
 		F667026A1C7F058500321DBA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = SOURCE_ROOT; };
@@ -68,6 +82,20 @@
 		F667026C1C7F058500321DBA /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = SOURCE_ROOT; };
 		F66702741C7FDF7100321DBA /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = YLRoaringTribe/LogInViewController.h; sourceTree = SOURCE_ROOT; };
 		F66702751C7FDF7100321DBA /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = YLRoaringTribe/LogInViewController.m; sourceTree = SOURCE_ROOT; };
+		F6CBC53C1C7FF7B7007C4B8F /* MajorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorViewController.h; sourceTree = SOURCE_ROOT; };
+		F6CBC53D1C7FF7B7007C4B8F /* MajorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajorViewController.m; sourceTree = SOURCE_ROOT; };
+		F6CBC5461C7FFB09007C4B8F /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = SOURCE_ROOT; };
+		F6CBC5471C7FFB09007C4B8F /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = SOURCE_ROOT; };
+		F6CBC5481C7FFB09007C4B8F /* AddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressViewController.xib; sourceTree = SOURCE_ROOT; };
+		F6CBC54D1C7FFB3F007C4B8F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = SOURCE_ROOT; };
+		F6CBC54E1C7FFB3F007C4B8F /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = SOURCE_ROOT; };
+		F6CBC54F1C7FFB3F007C4B8F /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = SOURCE_ROOT; };
+		F6CBC5541C7FFB53007C4B8F /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = SOURCE_ROOT; };
+		F6CBC5551C7FFB53007C4B8F /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = SOURCE_ROOT; };
+		F6CBC5561C7FFB53007C4B8F /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = SOURCE_ROOT; };
+		F6CBC55C1C7FFE04007C4B8F /* iconfont-ren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-ren.png"; sourceTree = "<group>"; };
+		F6CBC5621C8003CB007C4B8F /* iconfont-liaotian-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-liaotian-2.png"; sourceTree = "<group>"; };
+		F6CBC5641C8003F0007C4B8F /* iconfont-tongxunlu-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-tongxunlu-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,10 +211,13 @@
 		BC62076A1C7ED898007F5AF7 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F6CBC53A1C7FF733007C4B8F /* 主界面 */,
 				F66702741C7FDF7100321DBA /* LogInViewController.h */,
 				F66702751C7FDF7100321DBA /* LogInViewController.m */,
 				F667026A1C7F058500321DBA /* RegisterViewController.h */,
 				F667026B1C7F058500321DBA /* RegisterViewController.m */,
+				F6CBC53C1C7FF7B7007C4B8F /* MajorViewController.h */,
+				F6CBC53D1C7FF7B7007C4B8F /* MajorViewController.m */,
 				F667026C1C7F058500321DBA /* RegisterViewController.xib */,
 			);
 			path = controllers;
@@ -217,9 +248,60 @@
 		F66702541C7EF70900321DBA /* 素材 */ = {
 			isa = PBXGroup;
 			children = (
+				F6CBC5611C7FFE09007C4B8F /* tabbar下标 */,
 				F66702551C7EF72A00321DBA /* 头像.jpg */,
 			);
 			name = "素材";
+			sourceTree = "<group>";
+		};
+		F6CBC53A1C7FF733007C4B8F /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBC5451C7FFA72007C4B8F /* 我 */,
+				F6CBC5441C7FFA69007C4B8F /* 通讯录 */,
+				F6CBC5431C7FFA54007C4B8F /* 聊天 */,
+			);
+			name = "主界面";
+			sourceTree = "<group>";
+		};
+		F6CBC5431C7FFA54007C4B8F /* 聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBC54D1C7FFB3F007C4B8F /* ChatViewController.h */,
+				F6CBC54E1C7FFB3F007C4B8F /* ChatViewController.m */,
+				F6CBC54F1C7FFB3F007C4B8F /* ChatViewController.xib */,
+			);
+			name = "聊天";
+			sourceTree = "<group>";
+		};
+		F6CBC5441C7FFA69007C4B8F /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBC5461C7FFB09007C4B8F /* AddressViewController.h */,
+				F6CBC5471C7FFB09007C4B8F /* AddressViewController.m */,
+				F6CBC5481C7FFB09007C4B8F /* AddressViewController.xib */,
+			);
+			name = "通讯录";
+			sourceTree = "<group>";
+		};
+		F6CBC5451C7FFA72007C4B8F /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBC5541C7FFB53007C4B8F /* MeViewController.h */,
+				F6CBC5551C7FFB53007C4B8F /* MeViewController.m */,
+				F6CBC5561C7FFB53007C4B8F /* MeViewController.xib */,
+			);
+			name = "我";
+			sourceTree = "<group>";
+		};
+		F6CBC5611C7FFE09007C4B8F /* tabbar下标 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBC5641C8003F0007C4B8F /* iconfont-tongxunlu-2.png */,
+				F6CBC5621C8003CB007C4B8F /* iconfont-liaotian-2.png */,
+				F6CBC55C1C7FFE04007C4B8F /* iconfont-ren.png */,
+			);
+			name = "tabbar下标";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,10 +411,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66702561C7EF72A00321DBA /* 头像.jpg in Resources */,
+				F6CBC54B1C7FFB09007C4B8F /* AddressViewController.xib in Resources */,
+				F6CBC5521C7FFB3F007C4B8F /* ChatViewController.xib in Resources */,
+				F6CBC5631C8003CB007C4B8F /* iconfont-liaotian-2.png in Resources */,
 				F667026F1C7F058500321DBA /* RegisterViewController.xib in Resources */,
 				BC6207461C7ED3A1007F5AF7 /* LaunchScreen.storyboard in Resources */,
 				BC6207431C7ED3A1007F5AF7 /* Assets.xcassets in Resources */,
+				F6CBC5651C8003F0007C4B8F /* iconfont-tongxunlu-2.png in Resources */,
+				F6CBC5591C7FFB53007C4B8F /* MeViewController.xib in Resources */,
 				BC6207411C7ED3A1007F5AF7 /* Main.storyboard in Resources */,
+				F6CBC55F1C7FFE04007C4B8F /* iconfont-ren.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +429,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66702701C7F058500321DBA /* RegisterViewController.xib in Resources */,
+				F6CBC54C1C7FFB09007C4B8F /* AddressViewController.xib in Resources */,
+				F6CBC55A1C7FFB53007C4B8F /* MeViewController.xib in Resources */,
+				F6CBC5531C7FFB3F007C4B8F /* ChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +499,11 @@
 			files = (
 				F66702761C7FDF7100321DBA /* LogInViewController.m in Sources */,
 				BC62073B1C7ED3A1007F5AF7 /* AppDelegate.m in Sources */,
+				F6CBC53F1C7FF7B7007C4B8F /* MajorViewController.m in Sources */,
+				F6CBC5491C7FFB09007C4B8F /* AddressViewController.m in Sources */,
 				BC6207381C7ED3A1007F5AF7 /* main.m in Sources */,
+				F6CBC5501C7FFB3F007C4B8F /* ChatViewController.m in Sources */,
+				F6CBC5571C7FFB53007C4B8F /* MeViewController.m in Sources */,
 				F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,8 +512,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6CBC5581C7FFB53007C4B8F /* MeViewController.m in Sources */,
 				BC6207511C7ED3A1007F5AF7 /* YLRoaringTribeTests.m in Sources */,
 				F667026E1C7F058500321DBA /* RegisterViewController.m in Sources */,
+				F6CBC5511C7FFB3F007C4B8F /* ChatViewController.m in Sources */,
+				F6CBC5401C7FF7B7007C4B8F /* MajorViewController.m in Sources */,
+				F6CBC54A1C7FFB09007C4B8F /* AddressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

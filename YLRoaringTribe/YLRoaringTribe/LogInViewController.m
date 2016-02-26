@@ -8,6 +8,7 @@
 
 #import "LogInViewController.h"
 #import "RegisterViewController.h"
+#import "MajorViewController.h"
 @interface ViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *heardImageView;
 @property (weak, nonatomic) IBOutlet UITextField *accountField;
@@ -45,7 +46,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)logInButton:(UIButton *)sender {
-    
+    MajorViewController *mv=[[MajorViewController alloc]init];
+    [self.navigationController pushViewController:mv animated:YES];
     
 }
 - (IBAction)registerButton:(UIButton *)sender {
