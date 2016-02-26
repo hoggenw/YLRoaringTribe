@@ -49,13 +49,13 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)logInButton:(UIButton *)sender {
-
+    
     MajorViewController *mv=[[MajorViewController alloc]init];
     [self.navigationController pushViewController:mv animated:YES];
-
-    //登陆成功
+    
+       //登陆成功
     if ([self userlongin]) {
-        
+       
     }else{//失败
         
     }
