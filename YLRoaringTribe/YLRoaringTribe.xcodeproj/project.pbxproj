@@ -14,6 +14,9 @@
 		BC6207461C7ED3A1007F5AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6207441C7ED3A1007F5AF7 /* LaunchScreen.storyboard */; };
 		BC6207511C7ED3A1007F5AF7 /* YLRoaringTribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6207501C7ED3A1007F5AF7 /* YLRoaringTribeTests.m */; };
 		BC62075C1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */; };
+		BC815F5B1C7FF72C00E4A3D8 /* YLJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = BC815F5A1C7FF72C00E4A3D8 /* YLJudge.m */; };
+		BC815F611C8003C300E4A3D8 /* YLHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC815F601C8003C300E4A3D8 /* YLHintView.m */; };
+
 		BE776E880F70DCA84663A7CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E69117B607F8FB492989AF98 /* libPods.a */; };
 		F66702561C7EF72A00321DBA /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66702551C7EF72A00321DBA /* 头像.jpg */; };
 		F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667026B1C7F058500321DBA /* RegisterViewController.m */; };
@@ -75,6 +78,11 @@
 		BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRoaringTribeUITests.m; sourceTree = "<group>"; };
 		BC62075D1C7ED3A1007F5AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC62076D1C7ED93F007F5AF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+
+		BC815F591C7FF72C00E4A3D8 /* YLJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLJudge.h; sourceTree = "<group>"; };
+		BC815F5A1C7FF72C00E4A3D8 /* YLJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLJudge.m; sourceTree = "<group>"; };
+		BC815F5F1C8003BE00E4A3D8 /* YLHintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHintView.h; sourceTree = "<group>"; };
+		BC815F601C8003C300E4A3D8 /* YLHintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHintView.m; sourceTree = "<group>"; };
 		E69117B607F8FB492989AF98 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66702551C7EF72A00321DBA /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
 		F667026A1C7F058500321DBA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = SOURCE_ROOT; };
@@ -158,6 +166,7 @@
 		BC6207351C7ED3A1007F5AF7 /* YLRoaringTribe */ = {
 			isa = PBXGroup;
 			children = (
+				BC815F581C7FF6CB00E4A3D8 /* Utils */,
 				F66702541C7EF70900321DBA /* 素材 */,
 				BC62076C1C7ED911007F5AF7 /* resource */,
 				BC62076B1C7ED8B9007F5AF7 /* models */,
@@ -235,6 +244,17 @@
 			children = (
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		BC815F581C7FF6CB00E4A3D8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC815F5F1C8003BE00E4A3D8 /* YLHintView.h */,
+				BC815F601C8003C300E4A3D8 /* YLHintView.m */,
+				BC815F591C7FF72C00E4A3D8 /* YLJudge.h */,
+				BC815F5A1C7FF72C00E4A3D8 /* YLJudge.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		D79068B2B824DDA2D3674206 /* Frameworks */ = {
@@ -504,6 +524,10 @@
 				BC6207381C7ED3A1007F5AF7 /* main.m in Sources */,
 				F6CBC5501C7FFB3F007C4B8F /* ChatViewController.m in Sources */,
 				F6CBC5571C7FFB53007C4B8F /* MeViewController.m in Sources */,
+				BC815F611C8003C300E4A3D8 /* YLHintView.m in Sources */,
+
+				BC815F5B1C7FF72C00E4A3D8 /* YLJudge.m in Sources */,
+
 				F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
