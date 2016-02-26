@@ -47,6 +47,7 @@
 - (IBAction)logInButton:(UIButton *)sender {
     
     
+    
 }
 - (IBAction)registerButton:(UIButton *)sender {
     RegisterViewController *rvc=[[RegisterViewController alloc]init];
@@ -70,17 +71,25 @@
 {
     if ([textField isFirstResponder]) {
     [textField resignFirstResponder];  // 取消第一响应者
-        [self AnimationDown];
+      
       }
+    
     return YES;
 }
 //当文本框变为第一响应者时候使用
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
-    if ([textField isFirstResponder]) {
-        [self AnimationUp];
-    }
+    
     
 }
+//登陆测试接口
+-(void)userlongin{
+    NSString *name=_accountField.text;
+    NSString *passWord=_codeField.text;
+//    if (name.length==11&&) {
+//        
+//    }
+}
+
 //动画上移封装接口wlg
 -(void)AnimationUp{
     //设置动画的名字

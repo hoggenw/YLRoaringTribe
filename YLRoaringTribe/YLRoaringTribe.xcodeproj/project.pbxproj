@@ -127,6 +127,7 @@
 		BC6207351C7ED3A1007F5AF7 /* YLRoaringTribe */ = {
 			isa = PBXGroup;
 			children = (
+				BC815F571C7FF23F00E4A3D8 /* New Group */,
 				F66702541C7EF70900321DBA /* 素材 */,
 				BC62076C1C7ED911007F5AF7 /* resource */,
 				BC62076B1C7ED8B9007F5AF7 /* models */,
@@ -201,6 +202,13 @@
 			children = (
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		BC815F571C7FF23F00E4A3D8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		D79068B2B824DDA2D3674206 /* Frameworks */ = {
