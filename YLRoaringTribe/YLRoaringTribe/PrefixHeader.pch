@@ -12,5 +12,6 @@
 #import <AVOSCloud.h>
 #import <AVOSCloudIM.h>
 #import <AVOSCloudCrashReporting.h>
-
+#import "YLJudge.h"
+#import "YLHintView.h"
 #endif /* PrefixHeader_pch */

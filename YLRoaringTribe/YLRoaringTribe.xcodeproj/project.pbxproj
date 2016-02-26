@@ -14,13 +14,15 @@
 		BC6207461C7ED3A1007F5AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6207441C7ED3A1007F5AF7 /* LaunchScreen.storyboard */; };
 		BC6207511C7ED3A1007F5AF7 /* YLRoaringTribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6207501C7ED3A1007F5AF7 /* YLRoaringTribeTests.m */; };
 		BC62075C1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */; };
-		BC815F561C7FDC6E00E4A3D8 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC815F551C7FDC6E00E4A3D8 /* LogInViewController.m */; };
+		BC815F5B1C7FF72C00E4A3D8 /* YLJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = BC815F5A1C7FF72C00E4A3D8 /* YLJudge.m */; };
+		BC815F611C8003C300E4A3D8 /* YLHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC815F601C8003C300E4A3D8 /* YLHintView.m */; };
 		BE776E880F70DCA84663A7CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E69117B607F8FB492989AF98 /* libPods.a */; };
 		F66702561C7EF72A00321DBA /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66702551C7EF72A00321DBA /* 头像.jpg */; };
 		F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667026B1C7F058500321DBA /* RegisterViewController.m */; };
 		F667026E1C7F058500321DBA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667026B1C7F058500321DBA /* RegisterViewController.m */; };
 		F667026F1C7F058500321DBA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F667026C1C7F058500321DBA /* RegisterViewController.xib */; };
 		F66702701C7F058500321DBA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F667026C1C7F058500321DBA /* RegisterViewController.xib */; };
+		F66702761C7FDF7100321DBA /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66702751C7FDF7100321DBA /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +60,17 @@
 		BC62075B1C7ED3A1007F5AF7 /* YLRoaringTribeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRoaringTribeUITests.m; sourceTree = "<group>"; };
 		BC62075D1C7ED3A1007F5AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC62076D1C7ED93F007F5AF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		BC815F541C7FDC6E00E4A3D8 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = YLRoaringTribe/LogInViewController.h; sourceTree = SOURCE_ROOT; };
-		BC815F551C7FDC6E00E4A3D8 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = YLRoaringTribe/LogInViewController.m; sourceTree = SOURCE_ROOT; };
+		BC815F591C7FF72C00E4A3D8 /* YLJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLJudge.h; sourceTree = "<group>"; };
+		BC815F5A1C7FF72C00E4A3D8 /* YLJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLJudge.m; sourceTree = "<group>"; };
+		BC815F5F1C8003BE00E4A3D8 /* YLHintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHintView.h; sourceTree = "<group>"; };
+		BC815F601C8003C300E4A3D8 /* YLHintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHintView.m; sourceTree = "<group>"; };
 		E69117B607F8FB492989AF98 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66702551C7EF72A00321DBA /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
 		F667026A1C7F058500321DBA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = SOURCE_ROOT; };
 		F667026B1C7F058500321DBA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = SOURCE_ROOT; };
 		F667026C1C7F058500321DBA /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = SOURCE_ROOT; };
+		F66702741C7FDF7100321DBA /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = YLRoaringTribe/LogInViewController.h; sourceTree = SOURCE_ROOT; };
+		F66702751C7FDF7100321DBA /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = YLRoaringTribe/LogInViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +133,7 @@
 		BC6207351C7ED3A1007F5AF7 /* YLRoaringTribe */ = {
 			isa = PBXGroup;
 			children = (
-				BC815F571C7FF23F00E4A3D8 /* New Group */,
+				BC815F581C7FF6CB00E4A3D8 /* Utils */,
 				F66702541C7EF70900321DBA /* 素材 */,
 				BC62076C1C7ED911007F5AF7 /* resource */,
 				BC62076B1C7ED8B9007F5AF7 /* models */,
@@ -181,8 +187,8 @@
 		BC62076A1C7ED898007F5AF7 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BC815F541C7FDC6E00E4A3D8 /* LogInViewController.h */,
-				BC815F551C7FDC6E00E4A3D8 /* LogInViewController.m */,
+				F66702741C7FDF7100321DBA /* LogInViewController.h */,
+				F66702751C7FDF7100321DBA /* LogInViewController.m */,
 				F667026A1C7F058500321DBA /* RegisterViewController.h */,
 				F667026B1C7F058500321DBA /* RegisterViewController.m */,
 				F667026C1C7F058500321DBA /* RegisterViewController.xib */,
@@ -204,11 +210,15 @@
 			path = resource;
 			sourceTree = "<group>";
 		};
-		BC815F571C7FF23F00E4A3D8 /* New Group */ = {
+		BC815F581C7FF6CB00E4A3D8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BC815F5F1C8003BE00E4A3D8 /* YLHintView.h */,
+				BC815F601C8003C300E4A3D8 /* YLHintView.m */,
+				BC815F591C7FF72C00E4A3D8 /* YLJudge.h */,
+				BC815F5A1C7FF72C00E4A3D8 /* YLJudge.m */,
 			);
-			name = "New Group";
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		D79068B2B824DDA2D3674206 /* Frameworks */ = {
@@ -411,9 +421,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC815F561C7FDC6E00E4A3D8 /* LogInViewController.m in Sources */,
+				F66702761C7FDF7100321DBA /* LogInViewController.m in Sources */,
 				BC62073B1C7ED3A1007F5AF7 /* AppDelegate.m in Sources */,
+				BC815F611C8003C300E4A3D8 /* YLHintView.m in Sources */,
 				BC6207381C7ED3A1007F5AF7 /* main.m in Sources */,
+				BC815F5B1C7FF72C00E4A3D8 /* YLJudge.m in Sources */,
 				F667026D1C7F058500321DBA /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

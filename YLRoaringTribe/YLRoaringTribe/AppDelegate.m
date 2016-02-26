@@ -18,10 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
     //如果使用美国站点，请加上这行代码 [AVOSCloud useAVCloudUS];
-    //[AVOSCloud setApplicationId:@"nvm32rNAPgzqv9R7dIU2wlBl-gzGzoHsz"
-    //                  clientKey:@"tVCxiqiTerWchslI0P0WbEqN"];
+    [AVOSCloud setApplicationId:@"nvm32rNAPgzqv9R7dIU2wlBl-gzGzoHsz"
+                     clientKey:@"tVCxiqiTerWchslI0P0WbEqN"];
     //如果想跟踪统计应用的打开情况，后面还可以添加下列代码：
-    //[AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
      
      
 //     [AVOSCloud requestSmsCodeWithPhoneNumber:@"18682565339" callback:^(BOOL succeeded, NSError *error) {

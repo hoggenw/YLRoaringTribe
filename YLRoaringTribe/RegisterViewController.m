@@ -43,8 +43,10 @@
 - (IBAction)certainButton:(UIButton *)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
-- (IBAction)replaceButton:(UIButton *)sender {
+- (IBAction)back:(UIButton *)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
+
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     for (int i=200; i<203; i++) {
         UITextField *text=(id)[self.view viewWithTag:i];
