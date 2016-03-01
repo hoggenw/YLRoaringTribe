@@ -9,7 +9,7 @@
 #import "ChatViewController.h"
 
 @interface ChatViewController ()
-
+@property(nonatomic,strong)AVIMClient *myClient;
 @end
 
 @implementation ChatViewController

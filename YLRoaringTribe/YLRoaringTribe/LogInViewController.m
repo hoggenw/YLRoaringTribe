@@ -50,12 +50,12 @@
 }
 - (IBAction)logInButton:(UIButton *)sender {
     
-    MajorViewController *mv=[[MajorViewController alloc]init];
-    [self.navigationController pushViewController:mv animated:YES];
+
     
        //登陆成功
     if ([self userlongin]) {
-       
+        MajorViewController *mv=[[MajorViewController alloc]init];
+        [self.navigationController pushViewController:mv animated:YES];
     }else{//失败
         
     }
